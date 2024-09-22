@@ -7,13 +7,14 @@ Data Science Intern Case Study
 
 # Pusula Drug Side Effects Analysis Project
 
-## Proje Tanımı
-Bu proje, ilaç yan etkileri ile ilgili bir veri seti üzerinde kapsamlı bir analiz yapmayı ve veriyi daha ileri tahmine dayalı modelleme için hazırlamayı amaçlamaktadır. Aşağıdaki aşamalar sırasıyla uygulanmıştır:
-1. **Exploratory Data Analysis (EDA)**: Veriyi keşfetmek ve veri yapısını anlamak için veri görselleştirme teknikleri kullanıldı.
-2. **Veri Ön İşleme (Data Preprocessing)**: Eksik verilerin doldurulması, kategorik verilerin sayısal verilere dönüştürülmesi ve sayısal verilerin ölçeklendirilmesi gibi işlemler gerçekleştirildi.
+## Project Description
+This project aims to conduct a comprehensive analysis on a dataset of drug side effects and prepare the data for further predictive modeling. The following stages were implemented in order:
+1. **Exploratory Data Analysis (EDA)**: Data visualization techniques were used to explore the data and understand the data structure.
 
-## Kurulum ve Gereksinimler
-Proje, Python programlama dili ile yazılmıştır ve aşağıdaki kütüphaneler kullanılmaktadır:
+2. **Data Preprocessing**: Operations such as filling in missing data, converting categorical data to numerical data, and scaling numerical data were performed.
+
+## Installation and Requirements
+The project is written in Python programming language and the following libraries are used:
 
 - **Pandas**
 - **NumPy**
@@ -21,31 +22,31 @@ Proje, Python programlama dili ile yazılmıştır ve aşağıdaki kütüphanele
 - **Seaborn**
 - **Scikit-learn**
 
-Gerekli kütüphaneleri kurmak için aşağıdaki komutu çalıştırabilirsiniz:
+You can run the following command to install the required libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Kullanım Talimatları
-Proje kodunu çalıştırmak için şu adımları izleyin:
+Usage Instructions
+Follow these steps to run the project code:
 
-Proje dosyalarını indirin ve uygun bir dizine yerleştirin.
-Terminal veya komut satırında proje dizinine gidin.
-Veriyi işlemek için Jupyter Notebook veya herhangi bir Python IDE'sinde drug_analysis.ipynb dosyasını çalıştırın.
-Proje Aşamaları
+Download the project files and place them in a suitable directory.
+Go to the project directory in terminal or command line.
+Run drug_analysis.ipynb file in Jupyter Notebook or any Python IDE to process the data.
+Project Phases
 1. Exploratory Data Analysis (EDA)
-Veri yapısı incelendi: Verinin genel yapısı Pandas kullanılarak incelendi.
-Eksik veri tespiti: Eksik veriler ısı haritası (heatmap) ile görselleştirildi.
-Veri görselleştirme: Yan etkiler ve ilaçlar arasındaki ilişkiler çeşitli grafiklerle analiz edildi.
-2. Veri Ön İşleme
-Eksik veri doldurma: Eksik veriler SimpleImputer ile dolduruldu.
-Kategorik verilerin sayısallaştırılması: Kategorik veriler OneHotEncoder ile sayısal değerlere dönüştürüldü.
-Sayısal verilerin ölçeklendirilmesi: Sayısal veriler StandardScaler ile normalize edildi.
-Pipeline Kullanımı: Veri işleme adımları pipeline kullanılarak modüler ve tekrar kullanılabilir bir yapı oluşturuldu.
-3. Sonuçlar
-Veri başarılı bir şekilde işlenmiş ve modellemeye hazır hale getirilmiştir. Elde edilen veri ile çeşitli tahmine dayalı modeller eğitilebilecek yapıdadır.
+Data structure was examined: The general structure of the data was examined using Pandas.
+Missing data detection: Missing data was visualized with heatmap.
+Data visualization: Relationships between side effects and drugs were analyzed with various graphs.
+2. Data Preprocessing
+Filling missing data: Missing data was filled with SimpleImputer.
+Digitizing categorical data: Categorical data was converted to numerical values ​​with OneHotEncoder.
+Scaling numerical data: Numerical data was normalized with StandardScaler.
+Using Pipeline: A modular and reusable structure was created using the data processing steps pipeline.
+3. Results
+The data was successfully processed and made ready for modeling. The obtained data can be used to train various predictive models.
 
-İletişim Bilgileri
-İsim: Mehmet Emin Güvercin
-E-posta: m.guvercin34@gmail.com
+Contact Information
+Name: Mehmet Emin Güvercin
+Email: m.guvercin34@gmail.com
