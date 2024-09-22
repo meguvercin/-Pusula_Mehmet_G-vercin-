@@ -22,6 +22,7 @@ Gerekli kütüphaneleri kurmak için aşağıdaki komutu çalıştırabilirsiniz
 
 ```bash
 pip install -r requirements.txt
+```
 
 Kullanım Talimatları
 Proje kodunu çalıştırmak için şu adımları izleyin:
