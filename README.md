@@ -48,5 +48,7 @@ Using Pipeline: A modular and reusable structure was created using the data proc
 The data was successfully processed and made ready for modeling. The obtained data can be used to train various predictive models.
 
 Contact Information
+
 Name: Mehmet Emin Güvercin
+
 Email: m.guvercin34@gmail.com
