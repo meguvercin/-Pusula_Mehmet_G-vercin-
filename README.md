@@ -1,4 +1,7 @@
-# Pusula_Mehmet_Güvercin
+# MEHMET EMİN GÜVERCİN
+
+# E-mail: m.guvercin34@gmail.com
+
 Data Science Intern Case Study
 
 
